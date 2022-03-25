@@ -21,3 +21,4 @@ def count_three_sum(ints, thread_name='t'):
                     print(f'Triple found in {thread_name}: {ints[i]}, {ints[j]}, {ints[k]}', end='\n')
 
     print(f'ended count_three_sum in {thread_name}. Triplets counter={counter}')
+    return counter
