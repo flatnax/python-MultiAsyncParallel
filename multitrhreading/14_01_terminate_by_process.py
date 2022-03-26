@@ -16,5 +16,3 @@ if __name__ == '__main__':
     p.terminate()
 
     print('ended main')
-
-
